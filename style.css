@@ -42,7 +42,7 @@ body { background: #080800; color: #fff; margin: 0 auto; max-width: 1400px; }
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/Portfolio-Banners.png);
+    background-image: url(./assets/Portfolio-Banners.png);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
