@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Santhosh Prakash M | Portfolio</title>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script> 
+</head>
+
+<body cz-shortcut-listen="true">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="left"><span>S</span>anthosh.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" aria-hidden="true"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" aria-hidden="true"></i>
+            </nav>
+            <div class="header-txt">
+                <p>Junior Software Engineer</p>
+                <h1>Hi, I'm <span>Santhosh Prakash M</span> <br>From Madurai, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------About----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/assets/Santhosh.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="subtitle">About Me</h2>
+                    <p>
+                        A highly motivated and hardworking individual, seeking for a
+                        responsible position, where I can utilize my technical and
+                        management skills for the growth of the organization as well as to
+                        enhance my knowledge.Updating myself by learning and practicing
+                        through projects is my current way of honing skills.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Developer</span><br>HTML <br>
+                                CSS<br>
+                                JavaScript
+                            </li>
+                            <li>
+                                <span>Other skills</span><br>
+                                Python <br>
+                                SQL
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2023 - UnderGraduate Degree </span><br>Velammal
+                                Institute of Technology,Chennai<br>
+                                CGPA: 8.33
+                            </li>
+
+                            <li>
+                                <span>2019 - Pre-University College </span><br>Vijaya
+                                Pre-University College,Bangalore <br>Percentage : 68.60 %
+                            </li>
+
+                            <li>
+                                <span>2017 - High School</span><br>Shanthiniketan
+                                Educational Institute,Bangalore<br>Percentage : 81.9 %
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------SERVICES------------- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="subtitle">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Creating a web page design which is user-friendly and more
+                        importantly attractive as well as catchy web design is key part of
+                        pulling business towards you
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    <h2>Websites</h2>
+                    <p>
+                        Building Responsive Websites is a key part of building your
+                        company.Using cutting Edge Technologies ,we create a well defined
+                        website.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================== Portfolio======================= -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="subtitle">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/assets/guess_game.png">
+                    <div class="layer">
+                        <h3>Guess the Number</h3>
+                        <p>
+                            This is a simple guessing game using HTML, CSS, JavaScript.Guess
+                            faster to get the highest score of 20⏩.Mobile Viewer :Use
+                            Desktop view for better experience .
+                        </p>
+                        <a href="https://guessthenumber-gg.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/dice_game.png">
+                    <div class="layer">
+                        <h3>What's Your Score</h3>
+                        <p>
+                            This is a 2 Player dice game using HTML, CSS, JavaScript.Play
+                            with your friends and the one who reaches 100 points
+                            wins🎉.Mobile Viewer :Use Desktop view for better experience .
+                        </p>
+                        <a href="https://whatsurscore-gg.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/assets/Youtube_clone.png">
+                    <div class="layer">
+                        <h3>Youtube_clone</h3>
+                        <p>
+                            This is a Youtube Clone web app which is responsive to
+                            mobiles,ipads as well as PC.This app was implemented by ReactJs
+                            and Rapid API . Note : This app does not contain all videos from
+                            youtube .
+                        </p>
+                        <a href="https://ashwinyt.netlify.app" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ============================CONTACT=============== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="subtitel">Contact Me</h2>
+                    <p>
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        <a href="mailto:santhoshprakashm.official@gmail.com">santhoshprakashm.official@email.com </a>
+                    </p>
+                    <p><i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+917639444369">+91 7639 444 369</a>
+                    </p>
+                    <div class="social-media">
+                        <!-- <a href="#" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a> -->
+                        <a href="https://www.linkedin.com/in/santhosh-prakash-m-5282701aa" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="/assets/Santhosh Prakash M _ Resume.pdf" download="" class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name *" required>
+                        <input type="email" name="Email" placeholder="Your Email *" required>
+                        <textarea name="Message" rows="6" placeholder="Comment *" required></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <div id="popup" class="popup">
+                        <div class="popup-content">
+                            <img src="/assets/tick.gif" class="tick">
+                            <h3>Message Sent Successfully!</h3>
+                        </div>
+                    </div>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p>&copy; <span id="year">2024</span> | Designed & Developed by Sandy.</p>
+        </div>
+    </div>
+    <a href="#header" id="go-to-top"><i class="fa-solid fa-arrow-down"></i></a>
+</body>
+</html>
