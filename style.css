@@ -493,7 +493,7 @@ nav .fa-solid {
     .header-txt h1 { font-size: 28px; }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 680px) {
     .header-txt { margin: 15% 0px; font-size: 12px;}
     .header-txt h1 { font-size: 14px; }
     .container { padding: 10px 5%; }
