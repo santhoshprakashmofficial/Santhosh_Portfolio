@@ -112,6 +112,8 @@ nav ul li a:hover::after {
     color: #000;
 }
 
+.header-txt p { font-weight: 700; }
+
 .left span {
     color: #000;
 }
